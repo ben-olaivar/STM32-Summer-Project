@@ -1,5 +1,33 @@
 (kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 79a997ad-34a6-4d44-b399-a7b47e5a823d)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 88.265 40.64) (size 33.655 65.405) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b85c9748-1158-45d6-9635-d60e3341d3ab)
+    (property "Sheet name" "MCU" (id 0) (at 88.265 39.9284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 88.265 106.6296 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/b85c9748-1158-45d6-9635-d60e3341d3ab" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/b85c9748-1158-45d6-9635-d60e3341d3ab/0c3021de-35c7-4253-9539-54a162d08d7c"
+      (reference "U?") (unit 1) (value "STM32G491CEU6") (footprint "")
+    )
+  )
 )
